@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.logo img {
+    width: 164px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li a:hover {
+    color: rgb(176, 176, 176);
+    transition: 0.7s;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+section span img {
+    width: 82px;
+    margin: 0 23px;
+}
+
+.first p {
+    font-size: 23px;
+    width: 61vw;
+    text-align: center;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 14px 16px;
+    background-color: #00B6D1;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    margin:12px 0;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.green {
+    background-color: #5cb85c;
+
+}
+
+.second {
+   max-width: 70vw;
+   margin: auto;
+}
+
+.small {
+    font-size: 12px;
+
+}
+
+.item {
+    text-align: center;
+    padding: 23px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 12px;
+}
+.download:nth-child(2){
+    font-size: 23px;
+}
+.download img{
+    padding: 0px 12px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+@media screen and (max-width:850px){
+.grid{
+    grid-template-columns: 1fr;
+}
+}
